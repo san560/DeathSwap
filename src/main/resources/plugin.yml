@@ -1,0 +1,10 @@
+name: DeathSwap
+version: '${project.version}'
+main: sanjay.thing.deathswap.Main
+api-version: '1.20'
+commands:
+  ds:
+    description: 'swaps the given players locations'
+  tesst:
+    description: "a test command to test new features"
+
