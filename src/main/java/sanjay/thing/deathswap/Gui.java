@@ -17,8 +17,8 @@ public class Gui {
         ItemStack noitem = new ItemStack(Material.RED_CONCRETE);
         ItemMeta itemmeta = item.getItemMeta();
         ItemMeta noitemmeta = noitem.getItemMeta();
-        itemmeta.setDisplayName("Yea lets fucking gooo");
-        noitemmeta.setDisplayName("Nah, Piss off");
+        itemmeta.setDisplayName("Yea lets gooo");
+        noitemmeta.setDisplayName("Nah, bugger off");
         item.setItemMeta(itemmeta);
         noitem.setItemMeta(noitemmeta);
         Inventory inventory = Bukkit.createInventory(null,9,invname);
