@@ -33,7 +33,7 @@ public class MainEventHandler implements Listener {
         String p1name = words[0];
         Player p1 = Bukkit.getServer().getPlayerExact(p1name);
         if(p1 == null){
-            p2.sendMessage("§c§[DeathSwap]" +p1name + " abandoned the game, what a fucking pussy");
+            p2.sendMessage("§c§[DeathSwap]" +p1name + " abandoned the game, what a underachiever");
             return;
         }
 
